@@ -1,0 +1,41 @@
+{
+  "name": "curus",
+  "version": "1.0.0",
+  "description": "cursus complete",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SET NODE_ENV=production& SET MONGO_USER=andihoerudin& SET MONGO_PASSWORD=andihoerudin&      SET MONGO_DEFAULT_DATABASE=shop& SET STRIPE_KEY=sk_test_UIcyHSznsbxzGY3rJOekZ04V00dBZsKgAl& node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "andi hoerudin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.2.0",
+    "csurf": "^1.10.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.2.0",
+    "helmet": "^3.21.2",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "mysql2": "^1.7.0",
+    "nodemailer": "^6.3.1",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pdfkit": "^0.10.0",
+    "pug": "^2.0.4",
+    "sequelize": "^5.19.6",
+    "stripe": "^7.10.0"
+  }
+}
