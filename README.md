@@ -19,6 +19,9 @@ how to install the application <br>
   -cart
   -DLL
 
+#DEMO APPLICATION
+<a href-"https://node-js-andi.herokuapp.com/">Demo</a>
+
 #MADE USED NODE JS EXPRESS
 
 1.<p align="center"><img src="https://github.com/andihoerudin24/node-for-online-shop/blob/master/1.PNG"></p>
